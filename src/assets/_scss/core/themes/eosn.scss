@@ -1,0 +1,41 @@
+//
+// eosn Theme
+// --------------------------------------------------
+
+// Include base files
+@import 'base';
+
+// Generate color theme
+@include color-theme($theme-eosn-primary,
+                     $theme-eosn-light,
+                     $theme-eosn-lighter,
+                     $theme-eosn-dark,
+                     $theme-eosn-darker,
+                     $theme-eosn-body-bg,
+                     $theme-eosn-body-bg-dark,
+                     $theme-eosn-body-bg-light,
+                     $theme-eosn-body-color,
+                     $theme-eosn-body-color-dark,
+                     $theme-eosn-body-color-light,
+                     $theme-eosn-link-color,
+                     $theme-eosn-link-hover-color,
+                     $theme-eosn-headings-color,
+                     $theme-eosn-input-btn-focus-color,
+                     $theme-eosn-input-btn-focus-box-shadow,
+                     $theme-eosn-input-bg,
+                     $theme-eosn-input-color,
+                     $theme-eosn-input-border-color,
+                     $theme-eosn-input-focus-bg,
+                     $theme-eosn-input-focus-color,
+                     $theme-eosn-input-focus-border-color,
+                     $theme-eosn-header-bg,
+                     $theme-eosn-header-dark-bg,
+                     $theme-eosn-sidebar-bg,
+                     $theme-eosn-sidebar-dark-bg,
+                     $theme-eosn-side-overlay-bg,
+                     $theme-eosn-main-nav-link-icon-color,
+                     $theme-eosn-main-nav-link-hover-bg,
+                     $theme-eosn-main-nav-submenu-bg,
+                     $theme-eosn-main-nav-link-icon-dark-color,
+                     $theme-eosn-main-nav-link-dark-hover-bg,
+                     $theme-eosn-main-nav-submenu-dark-bg);

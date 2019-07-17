@@ -1,0 +1,29 @@
+{
+    "name": "EOS Nation",
+    "website": "https://eosnation.io",
+    "ownership_disclosure": "https://eosnation.io/ownership-disclosure",
+    "code_of_conduct": "https://steemit.com/eos/@eosnation/eos-nation-roadmap-on-values-community-project-timeline-finances-and-transparency",
+    "email": "info@eosnation.io",
+    "branding": {
+        "logo_256": "https://dsp.eosnation.io/assets/dsp/logo_256.png",
+        "logo_1024": "https://dsp.eosnation.io/assets/dsp/logo_1024.png",
+        "logo_svg": "https://dsp.eosnation.io/assets/dsp/logo.svg"
+    },
+    "location": {
+        "name": "Canada",
+        "country": "CA",
+        "latitude": 45.425532,
+        "longitude": -75.700269
+    },
+    "social": {
+        "steemit": "eosnation",
+        "twitter": "EOS_Nation",
+        "facebook": "groups/EOSNation",
+        "github": "EOS-Nation",
+        "telegram": "EOSNation",
+        "youtube": "channel/UCXgAY9DyooykrubRXw3xK1g",
+        "reddit": "EOSNation",
+        "keybase": "eosnation",
+        "wechat": "Eosnation"
+    }
+}

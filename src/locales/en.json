@@ -1,0 +1,171 @@
+{
+  "layout": {
+    "mainHeader": {
+      "searchAccount": "Search Account",
+      "language": "Language",
+      "english": "English",
+      "chinese": "中文"
+    },
+    "mainMenu": {
+      "packages": "Packages",
+      "providers": "Providers",
+      "users": "Users",
+      "vTokens": "vTokens",
+      "faq": "FAQ"
+    }
+  },
+  "auth": {
+    "transit": {
+      "login": "Login",
+      "desktop": "Desktop",
+      "mobile": "Mobile",
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout",
+      "connectionError": "Connection Error!",
+      "connectionErrorMsg": "Could not connect to Ledger. Make sure your Ledger is plugged in, unlocked and the EOS App is running."
+    }
+  },
+  "view": {
+    "welcome": {
+      "title": "Welcome to the EOS Nation DAPP Service Provider (DSP) Portal",
+      "p1": "EOS Nation is more than an EOSIO Block Producer; our mission is to secure the EOSIO ecosystem with reliable, performant infrastructure, and to build a global community equipped with the tools and resources to thrive. This DSP Portal allows users to access, view, and communicate with DSPs registered on the DAPP Network.",
+      "subTitle": "Why choose EOS Nation DSP services?",
+      "p2": "EOS Nation uses industry standard technical and organizational security measures in connection with the storage, processing and transfer of the data that are designed to protect the integrity of that data and to guard against unauthorized or unlawful access to, use of, or processing of such data.",
+      "p3": "Our data centres are virtually impenetrable. They all feature two-stage authentication for access—with biometric authentication, such as iris scanners and round-the-clock video monitoring of the perimeter, cabinets, cages and suites, so you can rest assured your data is safe.",
+      "p4": "Our hardware is fully bare metal. The infrastructure is located in guarded and monitored Tier III data centres which are Uptime Institute Tier III certified facilities, guaranteeing 100% power uptime. The network infrastructure is protected by sophisticated power-redundancy, cooling and fire-suppression systems, ensuring business continuity.",
+      "p5": "EOS Nation deploys infrastructure across two separate legal jurisdictions, accessing different power grids and different internet backbones to ensure maximum redundancy and maximum uptime.",
+      "p6": "Since the EOS Mainnet launch back in June 2018, EOS Nation has proven itself to be a reliable EOSIO Block Producer, having produced over 500,000 blocks with 99.991% round availability. In fact, EOS Nation sits in the top producer reliability position; in the 42,292 times we were scheduled to produce blocks, we have only ever missed 4 rounds and recovered immediately within 2 minutes (1 round) of it happening every time.",
+      "p7": "This is the level of service that you can expect when using the EOS Nation DSP Services."
+    },
+    "packages": {
+      "packages": "Package | Packages",
+      "noResults": "Sorry, no Results found.",
+      "searchFilter": "Search & Filter",
+      "sort": "Sort:",
+      "random": "Random",
+      "providers": "Provider | Providers",
+      "services": "Service | Services",
+      "quota": "Quota",
+      "minStake": "Min Stake",
+      "packagePeriod": "Package Period",
+      "unstakePeriod": "Unstake Period",
+      "asc": "Ascending",
+      "desc": "Descending",
+      "searchProvider": "Search for Providers",
+      "limits": "Limits",
+      "minStakeLimit": "Min Stake Quantity:",
+      "quotaLimit": "Quota:",
+      "packagePeriodLimit": "Package Period:",
+      "status": "Status",
+      "available": "Available",
+      "selected": "Selected",
+      "deprecated": "Deprecated",
+      "reset": "Reset"
+    },
+    "packageDetails": {
+      "packageDetails": "Package Details",
+      "quota": "Quota",
+      "minStakeQuantity": "Min Stake Quantity",
+      "packagePeriod": "Package Period",
+      "unstakePeriod": "Min Unstake Period",
+      "account": "DSP Account",
+      "apiEndpoint": "API Endpoint",
+      "serviceId": "Service ID",
+      "pkgId": "Package ID",
+      "uid": "UID",
+      "users": "User | Users"
+    },
+    "providers": {
+      "providers": "Provider | Providers",
+      "dsp": "DAPP Service Providers",
+      "packages": "Packages",
+      "services": "Services",
+      "rewards": "Rewards 24h",
+      "dappStaked": "DAPP Staked",
+      "totalStaked": "% of Total Staked",
+      "userCount": "User Count",
+      "uniqueUsers": "Unique Users"
+    },
+    "providerDetails": {
+      "providerDetails": "Provider Details",
+      "website": "Website",
+      "email": "Email",
+      "services": "Services",
+      "stakeWeight": "Stake Weight",
+      "packages": "Package | Packages",
+      "users": "User | Users",
+      "socialLinks": "Social Links"
+    },
+    "users": {
+      "allUsers": "All Users"
+    },
+    "userDetails": {
+      "userProfile": "User Profile",
+      "dappResources": "DAPP Resources",
+      "dapphdlResources": "DAPPHDL Resources",
+      "totalBalance": "Total Balance",
+      "available": "Available",
+      "staked": "Staked",
+      "unstaking": "Unstaking",
+      "refundReq": "Refund Required",
+      "allocation": "Allocation",
+      "noAllocation": "No Allocation",
+      "claimed": "Claimed",
+      "yes": "Yes",
+      "no": "No",
+      "actions": "Actions",
+      "claimDapphdl": "Claim DAPPHDL",
+      "loginReq": "Login required",
+      "refresh": "Refresh",
+      "loginToAccount": "Login to Account {0} required",
+      "pkgSelected": "Package selected | Packages selected"
+    },
+    "vRamTokens": {
+      "vRamTokens": "vRAM Tokens",
+      "tokenContract": "Token Contract",
+      "account": "Account",
+      "table": "Table",
+      "tokenSymbol": "Token Symbol",
+      "getBalance": "Get Balance",
+      "balance": "Balance",
+      "noTokensFound": "No Tokens found!",
+      "loading": "... loading"
+    },
+    "faq": {
+      "faq": "Frequently Asked Questions"
+    }
+  },
+  "component": {
+    "packageCard": {
+      "select": "Select",
+      "details": "Details",
+      "actions": "Actions",
+      "stake": "Stake",
+      "unstake": "Unstake",
+      "refund": "Refund",
+      "close": "Close",
+      "loginReq": "Login required"
+    },
+    "packageTable": {
+      "quota": "Quota",
+      "minStake": "Min Stake",
+      "pkgPeriod": "Pkg Period",
+      "unstakePeriod": "Unstake Period"
+    },
+    "accountsTable": {
+      "account": "Account",
+      "provider": "Provider",
+      "service": "Service",
+      "package": "Package",
+      "status": "Status",
+      "quota": "Quota",
+      "stake": "Stake",
+      "actions": "Actions",
+      "pageOf": "Page {0} of {1}"
+    },
+    "jsonFetchAlert": {
+      "unableToFetch": "Unable to fetch JSON data from DSP."
+    }
+  }
+}

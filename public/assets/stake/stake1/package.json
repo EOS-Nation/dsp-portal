@@ -1,0 +1,30 @@
+{
+    "name": "Stake 1",
+    "description": "EOS Nation DSP Package - Stake 1",
+    "dsp_json_uri": "https://dsp.eosnation.io/assets/dsp/dsp.json",
+    "logo":{
+        "logo_256": "https://dsp.eosnation.io/assets/stake/stake1/logo_256.png",
+        "logo_1024": "https://dsp.eosnation.io/assets/stake/stake1/logo_1024.png",
+        "logo_svg": "https://dsp.eosnation.io/assets/stake/stake1/logo.svg"
+    },
+    "service_level_agreement": {
+        "availability":{
+            "uptime_9s": 5
+        },
+        "performance":{
+            "95": 500
+        }
+    },
+    "pinning":{
+        "ttl": 2400,
+        "public": false
+    },
+    "locations":[
+        {
+            "name": "Canada",
+            "country": "CA",
+            "latitude": 45.425532,
+            "longitude": -75.700269
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+@import '../../../../node_modules/vue-select/src/scss/vue-select.scss';
+
+.bg-orange {
+  color: #ffffff;
+  background-color: #d66c44;
+}
+
+.nav-main-link {
+  &.nav-main-link-submenu {
+    &::before {
+      content: '';
+      background: url('../media/angle-down.svg') no-repeat 50% 50%;
+      opacity: .4;
+    }
+
+    &::after {
+      content: '';
+      background: url('../media/angle-up.svg') no-repeat 50% 50%;
+      opacity: 0;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-main-horizontal {
+    // Sub menus
+    .nav-main-submenu {
+      .nav-main-link {
+        &.nav-main-link-submenu {
+          &::before {
+            content: '';
+            background: url('../media/angle-right.svg') no-repeat 50% 50%;
+          }
+
+          &::after {
+            content: '';
+            background: url('../media/angle-left.svg') no-repeat 50% 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Block Modes
+.block {
+
+  &.block-mode-loading {
+    > .block-header,
+    > .block-content,
+    > .nav-tabs {
+      opacity: 0.3;
+    }
+    &::after {
+      content: '';
+      background: url('../media/cog.svg') no-repeat 50% 50%;
+    }
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}

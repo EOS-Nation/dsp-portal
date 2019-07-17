@@ -1,0 +1,171 @@
+{
+  "layout": {
+    "mainHeader": {
+      "searchAccount": "搜索账户",
+      "language": "语言",
+      "english": "English",
+      "chinese": "中文"
+    },
+    "mainMenu": {
+      "packages": "包",
+      "providers": "提供者",
+      "users": "用户",
+      "vTokens": "vTokens",
+      "faq": "FAQ"
+    }
+  },
+  "auth": {
+    "transit": {
+      "login": "登陆",
+      "desktop": "桌面",
+      "mobile": "移动端",
+      "profile": "个人信息",
+      "settings": "设置",
+      "logout": "退出登录",
+      "connectionError": "连接错误！",
+      "connectionErrorMsg": "不能连接到Ledger。 确保您的Ledger已插入并解锁，且EOS App正在运行。"
+    }
+  },
+  "view": {
+    "welcome": {
+      "title": "欢迎来到EOS Nation DAPP服务提供者(DSP)门户",
+      "p1": "EOS Nation不仅仅是EOSIO节点：我们的使命是确保EOSIO生态系统具有可靠的、高性能的基础设施，并建立一个全球社区，配备有促进繁荣发展的工具和资源。这个DSP门户允许用户访问、查看并与注册在DAPP网络上的DSP交流。",
+      "subTitle": "为什么选择EOS Nation DSP 服务？",
+      "p2": "EOS Nation在数据的存储、处理和传输方面使用行业标准的技术和组织安全措施，旨在保护数据的完整性，防止未经授权或非法访问、使用或处理此类数据。",
+      "p3": "我们的数据中心实际上是无法渗透的。它们都具有两个阶段的身份验证功能——通过生物特征身份验证，如虹膜扫描仪和对周边、橱柜、笼子和套房的全天候视频监控，因此您可以放心，您的数据是安全的。",
+      "p4": "我们的硬件是全裸金属架构。基础设施位于受保护和监测的第三级数据中心，这些数据中心是Uptime Institute的第三级认证设施，保证100%的电力正常运行。网络基础设施由复杂的电力冗余、冷却和灭火系统保护，确保业务连续性。",
+      "p5": "EOS Nation在两个不同的司法管辖区部署基础设施，接入不同的电网和互联网骨干，以确保最大的冗余和正常运作时间。 ",
+      "p6": "自EOS主网于2018年6月上线以来，EOS Nation已经证明了自己是一个可靠的EOSIO节点, 已经生产超过50万个块，可用性为99.991%。事实上，EOS Nation可靠性相当于超级节点的可靠性位置：在42,292次到我们出块中，我们只错过了4轮，并且每次都在2分钟内（每1轮）恢复。",
+      "p7": "这是您在选择使用EOS Nation DSP服务时可以期望到的服务级别。"
+    },
+    "packages": {
+      "packages": "Package | 包",
+      "noResults": "抱歉，未找到结果。",
+      "searchFilter": "搜索 & 过滤",
+      "sort": "分类：",
+      "random": "随机",
+      "providers": "Provider | 提供者",
+      "services": "Service | 服务",
+      "quota": "定额",
+      "minStake": "最少抵押量",
+      "packagePeriod": "包周期",
+      "unstakePeriod": "取消抵押周期",
+      "asc": "升序",
+      "desc": "降序",
+      "searchProvider": "搜索提供者",
+      "limits": "范围",
+      "minStakeLimit": "最少抵押量：",
+      "quotaLimit": "定额：",
+      "packagePeriodLimit": "包周期：",
+      "status": "状态",
+      "available": "有效可用的",
+      "selected": "已选择的",
+      "deprecated": "不推荐的",
+      "reset": "重置"
+    },
+    "packageDetails": {
+      "packageDetails": "包细节",
+      "quota": "定额",
+      "minStakeQuantity": "最少抵押量",
+      "packagePeriod": "包周期",
+      "unstakePeriod": "最少取消抵押周期",
+      "account": "DSP账户",
+      "apiEndpoint": "API端点",
+      "serviceId": "服务ID",
+      "pkgId": "包ID",
+      "uid": "UID",
+      "users": "User | 用户"
+    },
+    "providers": {
+      "providers": "Provider | 提供者",
+      "dsp": "DAPP服务提供者",
+      "packages": "包",
+      "services": "服务",
+      "rewards": "24小时奖励",
+      "dappStaked": "抵押的DAPP",
+      "totalStaked": "%总抵押量",
+      "userCount": "用户数量",
+      "uniqueUsers": "唯一用户"
+    },
+    "providerDetails": {
+      "providerDetails": "提供者详情",
+      "website": "网站",
+      "email": "Email",
+      "services": "服务",
+      "stakeWeight": "抵押权重",
+      "packages": "Package | 包",
+      "users": "User | 用户",
+      "socialLinks": "社交链接"
+    },
+    "users": {
+      "allUsers": "全部用户"
+    },
+    "userDetails": {
+      "userProfile": "用户个人信息",
+      "dappResources": "DAPP资源",
+      "dapphdlResources": "DAPPHDL资源",
+      "totalBalance": "总余额",
+      "available": "有效可用的",
+      "staked": "抵押的",
+      "unstaking": "取消抵押",
+      "refundReq": "退款要求",
+      "allocation": "分配",
+      "noAllocation": "未分配",
+      "claimed": "声明的",
+      "yes": "是",
+      "no": "否",
+      "actions": "操作",
+      "claimDapphdl": "声明DAPPHDL",
+      "loginReq": "登陆要求",
+      "refresh": "更新",
+      "loginToAccount": "登陆账户 {0} 要求",
+      "pkgSelected": "Package selected | 已选包"
+    },
+    "vRamTokens": {
+      "vRamTokens": "vRAM 代币",
+      "tokenContract": "代币合约",
+      "account": "账户",
+      "table": "表",
+      "tokenSymbol": "代币符号",
+      "getBalance": "获取余额",
+      "balance": "余额",
+      "noTokensFound": "未找到代币！",
+      "loading": "... 加载中"
+    },
+    "faq": {
+      "faq": "常见问题"
+    }
+  },
+  "component": {
+    "packageCard": {
+      "select": "选择",
+      "details": "细节",
+      "actions": "操作",
+      "stake": "抵押",
+      "unstake": "取消抵押",
+      "refund": "退款",
+      "close": "关闭",
+      "loginReq": "登陆要求"
+    },
+    "packageTable": {
+      "quota": "定额",
+      "minStake": "最少抵押量",
+      "pkgPeriod": "包周期",
+      "unstakePeriod": "取消抵押周期"
+    },
+    "accountsTable": {
+      "account": "账户",
+      "provider": "提供者",
+      "service": "服务",
+      "package": "包",
+      "status": "状态",
+      "quota": "定额",
+      "stake": "抵押",
+      "actions": "操作",
+      "pageOf": "{1}的第{0}页"
+    },
+    "jsonFetchAlert": {
+      "unableToFetch": "无法从DSP获取JSON数据。"
+    }
+  }
+}
